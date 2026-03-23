@@ -103,9 +103,9 @@ if model and mostrar_analise:
     st.markdown("---")
     st.subheader("🔍 Por que este resultado?")
     
-    explanation = explainer(input_scaled)
-    shap_values = explanation[0, :, 1]  # Classe 1
+    #explanation = explainer(input_scaled)
+    #shap_values = explanation[0, :, 1]  # Classe 1
 
-    fig, ax = plt.subplots(figsize=(8, 6))
-    shap.plots.waterfall(shap_values, show=False)
-    st.pyplot(fig)
+    #fig, ax = plt.subplots(figsize=(8, 6))
+    #shap.plots.waterfall(shap_values, show=False)
+    #st.pyplot(fig)
