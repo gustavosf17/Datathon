@@ -1,0 +1,8 @@
+Executar o Streamlit
+
+1. Abra o Anaconda Prompt
+2. Digite conda init 
+3. Digite conda activate datathon
+4. cd "NAVEGUE ATÉ A PASTA LOCAL DO APP STREAMLIT"
+5. Digite pip install -r requirements.txt
+6. Digite streamlit run app.py
